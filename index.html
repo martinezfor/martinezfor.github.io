@@ -57,9 +57,9 @@
       <nav id="navbar" class="nav-menu navbar">
         <ul>
           <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About Me</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Projects</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -69,21 +69,165 @@
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="hero-container" data-aos="fade-in">
       <h1>Alejandro Martínez Forner</h1>
-      <p>I'm <span class="typed" data-typed-items="Programmer, Game Developer"></span></p>
+      <p>I'm a <span class="typed" data-typed-items="Programmer, Game Developer"></span></p>
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>These are some of my most interesting projects.</p>
+        </div>
 
+        <div class="row aos-init aos-animate" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-graphics">Graphic Programming</li>
+              <li data-filter=".filter-unreal">Unreal Engine</li>
+              <li data-filter=".filter-unity">Unity Engine</li>
+              <li data-filter=".filter-others">Others</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-unreal">
+            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/borntorise.jpg" alt="">
+              <a href="portfolio-details.html">
+                <div class="gallery-item-overlay"></div>
+                <div class="gallery-item-content px-5 py-4">
+                  <h3 class="gallery-item-description mb-1">Born To Rise</h3>
+                  <p class="gallery-item-description small text-uppercase mb-0">A 2,5D platform metroidvania project made
+                    with Unreal Engine 4.27.2</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-graphics">
+            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/requiemengine.jpg" alt="">
+              <a href="portfolio-details.html">
+                <div class="gallery-item-overlay"></div>
+                <div class="gallery-item-content px-5 py-4">
+                  <h3 class="gallery-item-description mb-1">Requiem Engine</h3>
+                  <p class="gallery-item-description small text-uppercase mb-0">My first graphic engine from scratch made
+                    with C++, OpenGL and DirectX11</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-unity">
+            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/aigrid.gif" alt="">
+              <a href="portfolio-details.html">
+                <div class="gallery-item-overlay"></div>
+                <div class="gallery-item-content px-5 py-4">
+                  <h3 class="gallery-item-description mb-1">Agents & Procedurally generated hex grid</h3>
+                  <p class="gallery-item-description small text-uppercase mb-0">A procedurally generated hex grid with
+                    custom agents made in Unity</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-graphics">
+            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/proceduralcity.gif" alt="">
+              <a href="portfolio-details.html">
+                <div class="gallery-item-overlay"></div>
+                <div class="gallery-item-content px-5 py-4">
+                  <h3 class="gallery-item-description mb-1">Procedural City</h3>
+                  <p class="gallery-item-description small text-uppercase mb-0">Procedural generated city made with OpenGL
+                    and C++</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-unity">
+            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/rollingneon.jpg" alt="">
+              <a href="portfolio-details.html">
+                <div class="gallery-item-overlay"></div>
+                <div class="gallery-item-content px-5 py-4">
+                  <h3 class="gallery-item-description mb-1">Rolling Neon: Endless Runner</h3>
+                  <p class="gallery-item-description small text-uppercase mb-0">An endless runner made in Unity and
+                    published in Google Play Store</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-others">
+            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/Proyecto_nuevo.jpg" alt="ToyTanks">
+              <a href="toytanks.html">
+                <div class="gallery-item-overlay"></div>
+                <div class="gallery-item-content px-5 py-4">
+                  <h3 class="gallery-item-description mb-1">Toy Tanks</h3>
+                  <p class="gallery-item-description small text-uppercase mb-0">A local multiplayer game developed using
+                    devkitpro and GRRLIB library for Gamecube</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-graphics">
+            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/equalizer.gif" alt="">
+              <a href="portfolio-details.html">
+                <div class="gallery-item-overlay"></div>
+                <div class="gallery-item-content px-5 py-4">
+                  <h3 class="gallery-item-description mb-1">Equalizer</h3>
+                  <p class="gallery-item-description small text-uppercase mb-0">An equalizer using a custom engine, C++ and
+                    OpenGL</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-unreal">
+            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/teseobros.jpg" alt="">
+              <a href="portfolio-details.html">
+                <div class="gallery-item-overlay"></div>
+                <div class="gallery-item-content px-5 py-4">
+                  <h3 class="gallery-item-description mb-1">Teseo Bros</h3>
+                  <p class="gallery-item-description small text-uppercase mb-0">An online multiplayer demo of a game made
+                    using C++ and Unreal Engine 4.27.2</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-others">
+            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/metaballs.gif" alt="">
+              <a href="portfolio-details.html">
+                <div class="gallery-item-overlay"></div>
+                <div class="gallery-item-content px-5 py-4">
+                  <h3 class="gallery-item-description mb-1">Metaballs</h3>
+                  <p class="gallery-item-description small text-uppercase mb-0">My implementation of the metaballs 2D from
+                    scratch using SDL library and C</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section> <!-- End Portfolio Section -->
+
+  
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
-
+    
         <div class="section-title">
           <h2>About Me</h2>
-          <p>Programmer with interests in graphics, gameplay and AI programming for videogames. I also love the lorem ipsum dolor sit amet</p>
+          <p>Hello World! I'm a passionate junior programmer with a deep love for the world of videogames. My interest in this industry are graphics, gameplay and AI programming.</p>
         </div>
-
+    
         <div class="row">
           <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Game Programmer</h3>
@@ -91,7 +235,7 @@
               <div class="col-lg-6">
                 <ul>
                   <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>19 July 2002</span></li>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+34 694 40 09 21 </span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>(+34) 694 40 09 21 </span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>La Vall d'Uixó, Spain</span></li>
                 </ul>
               </div>
@@ -104,12 +248,15 @@
               </div>
             </div>
             <p>
-              Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-              Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+              Since I was a child, I had a deep fascination with video games. Their immersive worlds, captivating stories, and
+              interactive gameplay never failed to captivate me. As I grew older, my interest in games only intensified, and I often
+              found myself wondering how these virtual realms were created. It was during my secondary school years that I got my
+              first taste of coding, which opened up a whole new world of possibilities. As I delved into the world of programming, I
+              realized that I could actually bring my creative ideas to life through game development.
             </p>
           </div>
         </div>
-
+    
       </div>
     </section><!-- End About Section -->
 
@@ -118,7 +265,7 @@
       <div class="container">
         <div class="section-title">
           <h2>Resume</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>Here is my education, relevant experience and technical skills.</p>
           <div><a class="wp-block-button__link" href="" target="_blank" rel="noreferrer noopener">View My CV</a></div>
         </div>
 
@@ -128,162 +275,85 @@
             <div class="resume-item">
               <h4>HND IN COMPUTING (VIDEOGAMES PROGRAMMING)</h4>
               <h5>Sep 2020 - July 2023</h5>
-              <p><em>ESAT(Escuela Superior de Arte y Tecnología), BTEC Level 5 HND</em></p>
+              <p><em>&nbsp <strong>ESAT(Escuela Superior de Arte y Tecnología), BTEC Level 5 HND</strong></em></p>
               <p>I developed numerous projects throughout my studies using OpenGL, DirectX11, C/C++, Unreal Engine 4, Unity 3D, Android and IOS.</p>
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <h3 class="resume-title">Relevant Experience</h3>
             <div class="resume-item">
-              <h4>C++ Programmer</h4>
-              <h5>Sep 2023 - July 2023</h5>
-              <p><em>Born To Rise - ESAT</em></p>
+              <h4>AI Programmer</h4>
+              <h5>Sep 2022 - July 2023</h5>
+              <p><em>&nbsp <strong>Born To Rise - Raccoons Making Games</strong></em></p>
               <ul>
-                <li>Working as an AI programmer for the enemies using C++ and Unreal Engine</li>
-                <li>Programmed some hazards</li>
+                <li>Worked as an AI programmer for the enemies using C++ and Unreal Engine</li>
+                <li>Programmed Bouncing hazard</li>
                 <li>Technical artist(Animations, UI)</li>
-                <li>Working in a big team</li>
+                <li>Worked in a team of 15 people</li>
+                <li>Used Perforce as a source control tool</li>
               </ul>
             </div>
           </div>
         </div>
+        <br>
+        <div data-aos="fade-up"><h2 style="text-align: center; margin-right: 250px;">Technical Skills</h2></div>
+        <br>
+        <div class="row">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="resume-title">Programming Language</h3>
+            <div class="resume-item">
+              <h4>C/C++</h4>
+            </div>
+            <div class="resume-item">
+              <h4>C#</h4>
+            </div>
+            <div class="resume-item">
+              <h4>Python</h4>
+            </div>
+            <div class="resume-item">
+              <h4>GLSL (OpenGL Shading Language)</h4>
+            </div>
+            <div class="resume-item">
+              <h4>HLSL (High Level Shader Language)</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Software</h3>
+            <div class="resume-item">
+              <h4>RenderDoc</h4>
+            </div>
+            <div class="resume-item">
+              <h4>GitHub</h4>
+            </div>
+            <div class="resume-item">
+              <h4>Perforce</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Game Engines</h3>
+            <div class="resume-item">
+              <h4>Unreal Engine</h4>
+            </div>
+            <div class="resume-item">
+              <h4>Unity Engine</h4>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up">
+            <h3 class="resume-title">Graphic APIs</h3>
+            <div class="resume-item">
+              <h4>OpenGL</h4>
+            </div>
+            <div class="resume-item">
+              <h4>DirectX</h4>
+            </div> 
+          </div>
+
+        </div>
       </div>
     </section><!-- End Resume Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
-      <div class="container">
-        <div class="section-title">
-          <h2>Projects</h2>
-          <p>These are some of my most interesting projects.</p>
-        </div>
-    
-        <div class="row aos-init aos-animate" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-graphics">Graphic Programming</li>
-              <li data-filter=".filter-unreal">Unreal Engine</li>
-              <li data-filter=".filter-unity">Unity Engine</li>
-              <li data-filter=".filter-others">Others</li>
-            </ul>
-          </div>
-        </div>
-    
-        <div class="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-    
-          <div class="col-lg-4 col-md-6 portfolio-item filter-unreal">
-            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/borntorise.jpg" alt="">
-              <a href="portfolio-details.html">
-                <div class="gallery-item-overlay"></div>
-                <div class="gallery-item-content px-5 py-4">
-                  <h3 class="gallery-item-description mb-1">Born To Rise</h3>
-                  <p class="gallery-item-description small text-uppercase mb-0">A 2,5D platform metroidvania project made with Unreal Engine 4.27.2</p>
-                </div>
-              </a>
-            </div>
-          </div>
-    
-          <div class="col-lg-4 col-md-6 portfolio-item filter-graphics">
-            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/requiemengine.jpg" alt="">
-              <a href="portfolio-details.html">
-                <div class="gallery-item-overlay"></div>
-                <div class="gallery-item-content px-5 py-4">
-                  <h3 class="gallery-item-description mb-1">Requiem Engine</h3>
-                  <p class="gallery-item-description small text-uppercase mb-0">My first graphic engine from scratch made with C++, OpenGL and DirectX11</p>
-                </div>
-              </a>
-            </div>
-          </div>
-    
-          <div class="col-lg-4 col-md-6 portfolio-item filter-unity">
-            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/aigrid.gif" alt="">
-              <a href="portfolio-details.html">
-                <div class="gallery-item-overlay"></div>
-                <div class="gallery-item-content px-5 py-4">
-                  <h3 class="gallery-item-description mb-1">Agents & Procedurally generated hex grid</h3>
-                  <p class="gallery-item-description small text-uppercase mb-0">A procedurally generated hex grid with custom agents made in Unity</p>
-                </div>
-              </a>
-            </div>
-          </div>
-    
-          <div class="col-lg-4 col-md-6 portfolio-item filter-graphics">
-            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/proceduralcity.gif" alt="">
-              <a href="portfolio-details.html">
-                <div class="gallery-item-overlay"></div>
-                <div class="gallery-item-content px-5 py-4">
-                  <h3 class="gallery-item-description mb-1">Procedural City</h3>
-                  <p class="gallery-item-description small text-uppercase mb-0">Procedural generated city made with OpenGL and C++</p>
-                </div>
-              </a>
-            </div>
-          </div>
-        
-          <div class="col-lg-4 col-md-6 portfolio-item filter-unity">
-            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/rollingneon.jpg" alt="">
-              <a href="portfolio-details.html">
-                <div class="gallery-item-overlay"></div>
-                <div class="gallery-item-content px-5 py-4">
-                  <h3 class="gallery-item-description mb-1">Rolling Neon: Endless Runner</h3>
-                  <p class="gallery-item-description small text-uppercase mb-0">An endless runner made in Unity and published in Google Play Store</p>
-                </div>
-              </a>
-            </div>
-          </div>
-    
-          <div class="col-lg-4 col-md-6 portfolio-item filter-others">
-            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/Proyecto_nuevo.jpg" alt="ToyTanks">
-              <a href="portfolio-details.html">
-                <div class="gallery-item-overlay"></div>
-                <div class="gallery-item-content px-5 py-4">
-                  <h3 class="gallery-item-description mb-1">Toy Tanks</h3>
-                  <p class="gallery-item-description small text-uppercase mb-0">A lan multiplayer game developed using devkitpro and GRRLIB library for Gamecube</p>
-                </div>
-              </a>
-            </div>
-          </div>
-    
-          <div class="col-lg-4 col-md-6 portfolio-item filter-graphics">
-            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/equalizer.gif" alt="">
-              <a href="portfolio-details.html">
-                <div class="gallery-item-overlay"></div>
-                <div class="gallery-item-content px-5 py-4">
-                  <h3 class="gallery-item-description mb-1">Equalizer</h3>
-                  <p class="gallery-item-description small text-uppercase mb-0">An equalizer using a custom engine, C++ and OpenGL</p>
-                </div>
-              </a>
-            </div>
-          </div>
-    
-          <div class="col-lg-4 col-md-6 portfolio-item filter-unreal">
-            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/teseobros.jpg" alt="">
-              <a href="portfolio-details.html">
-                <div class="gallery-item-overlay"></div>
-                <div class="gallery-item-content px-5 py-4">
-                  <h3 class="gallery-item-description mb-1">Teseo Bros</h3>
-                  <p class="gallery-item-description small text-uppercase mb-0">An online multiplayer demo of a game made using C++ and Unreal Engine 4.27.2</p>
-                </div>
-              </a>
-            </div>
-          </div>
-    
-          <div class="col-lg-4 col-md-6 portfolio-item filter-others">
-            <div class="gallery-item text-white rounded"><img src="assets/img/portfolio/metaballs.gif" alt="">
-              <a href="portfolio-details.html">
-                <div class="gallery-item-overlay"></div>
-                <div class="gallery-item-content px-5 py-4">
-                  <h3 class="gallery-item-description mb-1">Metaballs</h3>
-                  <p class="gallery-item-description small text-uppercase mb-0">My implementation of the metaballs 2D from scratch using SDL library and C</p>
-                </div>
-              </a>
-            </div>
-          </div>
-    
-        </div>
-    
-      </div>
-    </section>
 
   </main><!-- End #main -->
 
